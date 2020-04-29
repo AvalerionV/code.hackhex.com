@@ -140,7 +140,7 @@
                             echo '</div>';
 						} else {
                             echo '<div class="nav-link">';
-							echo '<a href="https://' . $_SERVER['HTTP_HOST'] . '/t/' . $_tag . '/' . '1" class="next">Next Page -></a>';
+							echo '<a href="https://' . $_SERVER['HTTP_HOST'] . '/t/' . $_tag . '/1" class="next">Next Page -></a>';
                             echo '</div>';
 						}
 					

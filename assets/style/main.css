@@ -109,7 +109,7 @@ header {
 }
 
 .aUser {
-	float: right; 
+	float: right;
 }
 
 @media (max-width:1025px)  {
@@ -132,7 +132,7 @@ header {
 }
 
 .postTitle {
-    margin-block-start: 0em;
+    margin-block-start: 0;
 	font-size: 1.3rem;
 	color:#404040;
 }
@@ -147,7 +147,7 @@ header {
 }
 
 .solutionTitle {
-    margin-block-start: 0em;
+    margin-block-start: 0;
 	font-size: 1.3rem;
 	color:#404040;
 }
@@ -161,7 +161,7 @@ header {
 }
 
 ul.breadcrumb {
-  padding: 10px 0px;
+  padding: 10px 0;
   list-style: none;
   margin-block-start: 0;
   margin-block-end: 1em;
@@ -218,7 +218,7 @@ ul.breadcrumb li a:hover {
 }
 
 .next {
-    float:right;    
+    float:right;
 }
 
 .nav-link a {
@@ -227,7 +227,7 @@ ul.breadcrumb li a:hover {
 
 .searchbox {
     max-width:400px;
-    float:right;    
+    float:right;
     padding-top:15px;    
 }
 
@@ -281,11 +281,11 @@ ul.breadcrumb li a:hover {
   flex: 1;
   order: 1;
 }
-.sidebar-second{ 
+.sidebar-second{
   flex: 1;
   order: 2;
 }
-.sidebar-third{ 
+.sidebar-third{
   flex: 1;
   order: 3;
 }

@@ -232,7 +232,7 @@ function initialize()
 			$result = $connection->query($query);
 			$tagLastId = mysqli_insert_id($connection);
 			
-			if ($result === TRUE) {
+			if ($result == TRUE) {
 			} else {
 				$query = "SELECT id FROM tag WHERE title = '$t'";
 				$result = $connection->query($query);

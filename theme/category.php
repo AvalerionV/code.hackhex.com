@@ -142,7 +142,7 @@
                             echo '</div>';
 						} else {
                             echo '<div class="nav-link">';
-							echo '<a href="https://' . $_SERVER['HTTP_HOST'] . '/c/' . $_category . '/' . '1" class="next">Next Page -></a>';
+							echo '<a href="https://' . $_SERVER['HTTP_HOST'] . '/c/' . $_category . '/1" class="next">Next Page -></a>';
                             echo '</div>';
 						}
 					
