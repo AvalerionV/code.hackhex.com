@@ -1,0 +1,291 @@
+body {
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family:Roboto;
+}
+
+h1, h2, h3 {font-size:1.0rem;}
+code {white-space: pre-wrap;}
+pre {background-color: #f5f5f5; padding: 10px;}
+a {text-decoration:none;}
+b {color:gray;}
+
+header {
+	border-bottom:1px solid #eee;
+}
+
+.h-container {
+	height: 64px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+	clear: both;
+}
+
+.marginBottom {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.margin30 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.maxWidth1132 {
+	max-width: 1132px;
+}
+
+@media (min-width:1025px)  {
+	.post {
+		width:768px;
+		max-width:768px;
+		float:left;
+	}
+	.items {
+		width:768px;
+		max-width:768px;
+		float:left;
+	}
+}
+
+.post {
+	overflow:hidden;
+}
+
+.items .questions .votes {
+    float:left;
+    padding: 10px;
+    margin-right: 15px;
+    background-color: #f7f7f7;
+}
+
+.desc {
+	margin-bottom:30px;
+}
+
+.item {
+	font-weight: 500;
+	color: #505050;
+}
+
+.questions a:hover {
+	transition: all .1s linear;
+	color:#000;
+	font-size:16px;
+}
+
+.item .desc {
+	color:#aaa;
+	font-weight: 100;
+}
+
+.question {
+	display:block;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.userInfo {
+	display:block;
+	margin-bottom:30px;
+}
+
+.qDate {
+	display: inline-block;
+}
+
+.qUser {
+	float: right;
+}
+
+.aDate {
+	display: inline-block;
+}
+
+.aUser {
+	float: right; 
+}
+
+@media (max-width:1025px)  {
+	.sidebar {
+		display:none;
+	}
+}
+
+@media (max-width:768px)  {
+    .searchbox {
+        display:none;
+    }
+}
+
+.sidebar {
+	width:300px;
+	max-width:300px;
+	float:left;
+	margin-left: auto;
+}
+
+.postTitle {
+    margin-block-start: 0em;
+	font-size: 1.3rem;
+	color:#404040;
+}
+
+.ansContainer {
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+}
+
+#tick {
+	color:green;
+}
+
+.solutionTitle {
+    margin-block-start: 0em;
+	font-size: 1.3rem;
+	color:#404040;
+}
+
+.answer {
+	display:block;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+ul.breadcrumb {
+  padding: 10px 0px;
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+#votes {
+	float:right;
+}
+
+.background-black {
+	background-color:#000;
+	color:hsla(0,0%,100%,.7);
+	padding: 4% 0;
+}
+
+.footer {
+	margin-top:30px;
+	text-align:center;
+}
+
+.footer-item {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:14px;
+}
+
+.clear {
+    clear:both;
+}
+
+.next {
+    float:right;    
+}
+
+.nav-link a {
+    font-size:16px;
+}
+
+.searchbox {
+    max-width:400px;
+    float:right;    
+    padding-top:15px;    
+}
+
+.wrapper{
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .content .title {
+    font-size:20px;
+    color:hsla(0,0%,100%,.95);
+    font-weight: 500;
+}
+.wrapper .content .title:after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 3px;
+    margin: 5px 0 24px;
+    background-color: #ff0000;
+}
+.wrapper .content ul {
+    padding-inline-start: 0;
+}
+.wrapper .content li {
+    display: block;
+    margin-bottom: 10px;
+}
+.wrapper .content a {
+  color:hsla(0,0%,100%,.7);
+}
+.wrapper .content a:visited {
+  color:hsla(0,0%,100%,.7);
+}
+.wrapper .content .footer-logo {
+	margin-bottom:10px;
+}
+.wrapper .content .footer-logo img {
+	max-width: 50%;
+}
+.content {
+  display: flex;
+  flex: 1;
+}
+.columns{
+  display: flex;
+  flex:1;
+}
+.sidebar-first{
+  flex: 1;
+  order: 1;
+}
+.sidebar-second{ 
+  flex: 1;
+  order: 2;
+}
+.sidebar-third{ 
+  flex: 1;
+  order: 3;
+}
